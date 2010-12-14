@@ -15,6 +15,12 @@ MANIFEST			This list of files
 META.yml
 README
 t/01-round_fair.t
+t/02-adjacent.t
+t/10-adjacent_total.t
+t/11-random.t
+t/12-random_big.t
 t/99-pod_coverage.t
 t/99-pod_spelling.t
 t/99-pod_syntax.t
+t/lib/Check_FairRound.pm
+t/regression.t
