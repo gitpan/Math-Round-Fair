@@ -40,7 +40,7 @@ SYNOPSIS
       #  1% of the time: 1, 1, 1, 0
 
 DESCRIPTION
-    This module provides a two, exportable functions, "round_fair", which
+    This module provides two exportable functions, "round_fair", which
     allocates an integer value, fairly distributing rounding errors, and
     "round_adjacent", which takes a list of real numbers and rounds them up,
     or down, to an adjacent integer, fairly. Both functions return a list of

@@ -32,4 +32,4 @@ resources:
   homepage: http://github.com/semifor/math-round-fair
   license: http://dev.perl.org/licenses/
   repository: git://github.com/semifor/math-round-fair.git
-version: 0.02
+version: 0.03

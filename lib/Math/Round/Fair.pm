@@ -8,7 +8,7 @@ use base qw/Exporter/;
 use List::Util qw/shuffle sum min/;
 use POSIX qw/floor ceil DBL_EPSILON/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 our @EXPORT_OK = qw/round_fair round_adjacent/;
 
@@ -70,7 +70,7 @@ Math::Round::Fair - distribute rounding errors fairly
 
 =head1 DESCRIPTION
 
-This module provides a two, exportable functions, C<round_fair>, which
+This module provides two exportable functions, C<round_fair>, which
 allocates an integer value, fairly distributing rounding errors, and
 C<round_adjacent>, which takes a list of real numbers and rounds them up, or
 down, to an adjacent integer, fairly. Both functions return a list of fairly
